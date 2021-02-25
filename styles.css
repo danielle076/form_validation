@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Mukta', Arial, sans-serif;
+}
+
+.sign-up {
+    padding: 30px;
+    background-color: hsl(139, 54%, 83%);
+    color: hsl(135, 10%, 23%);
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+}
+
+.form-warning {
+    color: red;
+    font-size: 10px;
+    /*dit zorgt ervoor dat als er content in de p tag gezet wordt, de rest van de elementen niet verspringt*/
+    min-height: 16px;
+}

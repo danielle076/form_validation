@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Form validation</title>
 </head>
 <body>
 
+<div class="sign-up">
+    <h1>Registreren</h1>
+    <!-- Nog geen backend om het formulier naartoe te sturen, dus de action blijft leeg-->
+    <form action="">
+
+        <label for="input-username">
+            Gebruikersnaam: <input type="text" name="username" id="input-username"/>
+        </label>
+        <p class="form-warning" id="username-warning"></p>
+
+        <label for="input-password">
+            Wachtwoord: <input type="password" name="password" id="input-password"/>
+        </label>
+        <p class="form-warning" id="password-warning"></p>
+
+    </form>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
